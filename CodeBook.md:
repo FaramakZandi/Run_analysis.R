@@ -1,0 +1,13 @@
+Variables:
+lb:labels;
+sbtst: test data of volunteer test subjects; 
+Xtst: recorded features test data;
+Ytst: test data of activities’code labels;
+sbtrn: train data of volunteer subjects;
+Xtrn: recorded features train data;
+Ytst: train data of activities‘code labels;
+X: merging Xtst and Xtrn; 
+Y: merging Ytrn and Ytst;
+Sb: merging sbtrn and sbtst ;
+fr: the features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ;
+mrg3.txt: TidyData taking the means of each variable for each activity and each subject.
